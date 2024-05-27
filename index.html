@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/external.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- header sarts from here -->
+    <header id=""
+        class=" header w-full h-19 fixed top-0  text-white px-5 phone:px-10 sm:px-5 md:px-10 xl:px-26 2xl:px-36  flex justify-end  items-center z-30 transition-all duration-500">
+        <div class="w-full h-full bg-inherit flex justify-between">
+            <div class="xl:hidden w-auto  h-full flex justify-center items-center">
+                <img class="w-20 shadow-md shadow-black bg-white rounded-b-md " src="./assets/logo/KRI-Logo.png" alt="">
+            </div>
+            <nav class="hidden sm:flex gap-x-5 lg:gap-x-10 xl:gap-x-5  justify-center items-center text-md">
+                <div class=" homekey w-auto relative flex flex-col jistify-center items-center">
+                    <a class="text-red-500" href="./index.html">Home</a>
+                    <span class="underline1  h-0.25 bg-orangered transition-all duration-300"></span>
+                </div>
+                <div class=" offerkey w-auto relative flex flex-col jistify-center items-center">
+                    <a class="flex justify-center items-center gap-x-1.5 hover:text-black" href="#">We Offer<i
+                            class="fa-sharp fa-solid fa-caret-down animate-bounce text-sm "></i></a>
+                    <span class="underline2  h-0.25 bg-orangered transition-all duration-300"></span>
+                </div>
+                <div class="aboutkey w-auto relative flex flex-col jistify-center items-center">
+                    <a class="hover:text-black duration-300" href="./aboutus.html">About Us</a>
+                    <span class="underline3  h-0.25 bg-orange-500 transition-all duration-300"></span>
+                </div>
+                <div class="contactkey w-auto relative flex flex-col jistify-center items-center">
+                    <a class="hover:text-black duration-300" href="./contactus.html">Contact Us</a>
+                    <span class="underline4  h-0.25 bg-orangered transition-all duration-300"></span>
+                </div>
+                <div class="faqkey w-auto relative flex flex-col jistify-center items-center">
+                    <a class="hover:text-black duration-300" href="./faq.html">FAQs</a>
+                    <span class="underline5  h-0.25 bg-orangered transition-all duration-300"></span>
+                </div>
+                <div class="ewastekey w-auto relative flex flex-col jistify-center items-center">
+                    <a class="hover:text-black duration-300" href="./ewaste.html">E-waste</a>
+                    <span class="underline6  h-0.25 bg-orangered transition-all duration-300"></span>
+                </div>
+            </nav>
+            <div
+                class="hidden xl:flex logo w-44 h-30 bg-white rounded-b-lg self-center justify-center items-center  pt-5 transition-all duration-500">
+                <img class="w-32" src="./Assets/logo/KRI-Logo.png" alt="">
+            </div>
+            <div class=" h-full  flex justify-center items-center gap-x-5 xl:ml-13 2xl:ml-15 ">
+                <a class="hidden xl:block font-bold hover:text-orangered duration-300" href="#">+91-9953867737</a>
+                <a class="font-bold hidden xl:block hover:text-orangered duration-300" href="#">info@krinfotech.co</a>
+                <div class=" flex justify-center items-center xl:hidden">
+                    <i class="fa-sharp fa-solid fa-bars text-3xl hover:rotate-90 duration-500"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="w-full mt-20 justify-center xl:px-26 2xl:px-36">
+        <!-- Hero section starts from here -->
+        <div class="w-full h-110   flex  justify-between items-center relative  overflow-hidden shadow-md shadow-black">
+            <i
+                class="fa-solid fa-chevron-left leftarrow  hover:opacity-100 opacity-45  duration-200 absolute left-5 z-20 text-white font-bold text-5xl"></i>
+            <div class="frame w-hero h-110 relative flex ">
+                <div class="flex absolute gap-x-2 bottom-10 left-2/4">
+                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20 rounded-full"></span>
+                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20 rounded-full"></span>
+                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20 rounded-full"></span>
+                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20  rounded-full"></span>
+                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20 rounded-full"></span>
+                </div>
+                <div class=" absolute slider duration-1000 flex">
+                    <div class="w-hero h-110 bg-orange-500 image relative flex justify-center items-center">
+                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
+                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
+                    </div>
+                    <div class="w-hero h-110 bg-green-500 image relative">
+                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
+                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
+                    </div>
+                    <div class="w-hero h-110 bg-blue-500 image relative">
+                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
+                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
+                    </div>
+                    <div class="w-hero h-110 bg-yellow-500 image relative">
+                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
+                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
+                    </div>
+                    <div class="image w-hero h-110 bg-purple-500 relative">
+                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
+                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <i
+                class="fa-solid fa-chevron-left rightarrow  hover:opacity-100 opacity-45  duration-200  absolute right-5 z-20 rotate-180 text-white font-bold text-5xl"></i>
+        </div>
+        <!-- hero sectionm ends here -->
+
+        <!-- shop by category section starts from here -->
+        <div class="w-screen lg:w-full flex justify-center h-auto my-20    shadow-md shadow-orangered rounded-md">
+            <div
+                class="w-full h-auto md:h-100 bg-gradient-to-tl from-lightblack via-70%  to-black rounded-md relative flex justify-center items-center pt-30 lg:pt-0 pb-15 md:pt-10">
+                <h1 class="absolute top-10 font-bold text-white text-3xl">Shop by category</h1>
+                <div
+                    class="w-full h-full flex-col md:flex-row flex justify-center items-center gap-y-15 md:gap-x-10 lg:gap-x-20 xl:gap-x-10 2xl:gap-x-20">
+                    <div class="relative flex justify-center items-center">
+                        <h1 class=" absolute text-xl text-white -bottom-10">Desktop</h1>
+                        <div class=" w-28 h-28 rounded-full  relative overflow-hidden shadow-lg shadow-black">
+                            <a class="" href="#">
+                                <img class="absolute hover:scale-150 duration-300 -top-10 -left-3 scale-125"
+                                    src="./Assets/category/desktop.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative flex justify-center items-center">
+                        <h1 class=" absolute text-xl text-white -bottom-10">Laptop</h1>
+                        <div
+                            class=" w-28 h-28 rounded-full  relative flex justify-center items-center overflow-hidden shadow-lg shadow-black">
+                            <a class="flex justify-center" href="#">
+                                <img class="w-full h-full hover:scale-150 duration-300 scale-125 "
+                                    src="./Assets/category/laptop5.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative flex justify-center items-center">
+                        <h1 class=" absolute text-xl text-white -bottom-10">Workstation</h1>
+                        <div
+                            class=" w-28 h-28 rounded-full  relative overflow-hidden flex justify-center items-center shadow-lg shadow-black">
+                            <a class="" href="#">
+                                <img class="  duration-300  hover:scale-125  " src="./Assets/category/workstation1.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative flex justify-center items-center">
+                        <h1 class=" absolute text-2xl text-white -bottom-10">Server</h1>
+                        <div
+                            class=" w-28 h-28 rounded-full  relative overflow-hidden flex items-center shadow-lg shadow-black">
+                            <a class="" href="#">
+                                <img class=" hover:scale-150 duration-300 scale-125"
+                                    src="./Assets/category/server (2).jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative flex justify-center items-center">
+                        <h1 class=" absolute text-xl text-white -bottom-10">Printer</h1>
+                        <div
+                            class=" w-28 h-28 rounded-full  relative overflow-hidden flex  items-center  shadow-lg shadow-black">
+                            <a class="" href="#">
+                                <img class="scale-125 hover:scale-150 duration-300 " src="./Assets/category/printer.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative md:hidden lg:flex flex justify-center items-center ">
+                        <h1 class=" absolute text-xl text-white -bottom-10">Accessories</h1>
+                        <div
+                            class=" w-28 h-28 rounded-full  relative overflow-hidden flex justify-center items-center shadow-lg shadow-black">
+                            <a class="" href="#">
+                                <img class=" hover:scale-150 duration-300 scale-125"
+                                    src="./Assets/category/accessories.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- shop by category section ends here  -->
+
+        <!-- product section starts from here -->
+        <div class="w-full h-104 bg-black  rounded-lg overflow-x-hidden">
+            <div class="h-17 bg-black text-white flex rounded-t-2xl">
+                <div
+                    class="h-full w-2/12 flex justify-center items-center hover:rounded-t-2xl bg-orangered rounded-t-2xl hover:bg-orangered duration-300 cursor-pointer text-xl font-bold">
+                    Laptop</div>
+                <div
+                    class="h-full w-2/12 flex justify-center items-center hover:rounded-t-2xl hover:bg-orangered duration-300 cursor-pointer text-xl font-bold">
+                    Computer</div>
+                <div
+                    class="h-full w-2/12 flex justify-center items-center hover:rounded-t-2xl hover:bg-orangered duration-300 cursor-pointer text-xl font-bold">
+                    Printer</div>
+                <div
+                    class="h-full w-2/12 flex justify-center items-center hover:rounded-t-2xl hover:bg-orangered duration-300 cursor-pointer text-xl font-bold">
+                    CCTV</div>
+                <div
+                    class="h-full w-2/12 flex justify-center items-center hover:rounded-t-2xl hover:bg-orangered duration-300 cursor-pointer text-xl font-bold">
+                    Electronics</div>
+                <div
+                    class="h-full w-2/12 flex justify-center items-center hover:rounded-t-2xl hover:bg-orangered duration-300 cursor-pointer text-xl font-bold">
+                    Others</div>
+            </div>
+            <div class="w-full h-auto bg-red-500 relative flex ">
+                <div class="laptop absolute text-white flex justify-center items-center pt-7 gap-x-8 px-5 ">
+                    <div
+                        class=" product1 w-60 h-80 bg-white rounded-md hover:shadow-lg cursor-pointer hover:shadow-orangered hover:-translate-y-5 duration-300 relative overflow-hidden ">
+                        <div class="cartlist1 flex flex-col absolute -right-11 top-10 gap-y-5 duration-300 z-30">
+                            <a class="bg-black rounded-sm px-3 py-1 text-white hover:text-orangered duration-300"
+                                href="#">
+                                <i class="fa-solid fa-cart-shopping  "></i>
+                            </a>
+                            <a class="px-3 py-1 bg-black hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-heart "></i>
+                            </a>
+                            <a class="bg-black rounded-sm px-3 py-1 hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-magnifying-glass "></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class=" absolute left-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Buy</a>
+                            <a class="absolute right-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Rent</a>
+                        </div>
+                        <div class="w-full h-4/6  flex justify-center items-center px-4 overflow-hidden">
+                            <img class="hover:scale-110 duration-300" src="./Assets/laptop/img1.jpg" alt="">
+                        </div>
+                        <div class="w-full h-2/6 flex flex-col justify-center items-center">
+                            <h1 class="text-orangered font-bold text-xl">C2D Laptop</h1>
+                            <h2 class="text-black font-semibold mb-2 ">Intel core 2 Duo</h2>
+                            <p class="text-gray-500 font-bold text-sm flex justify-center items-center">Buy -/ Rs 8000 |
+                                Rent -/Rs 800</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class=" product2 w-60 h-80 bg-white rounded-md hover:shadow-lg cursor-pointer hover:shadow-orangered hover:-translate-y-5 duration-300 relative overflow-hidden ">
+                        <div class="cartlist2 flex flex-col absolute -right-11 top-10 gap-y-5 duration-300 z-30">
+                            <a class="bg-black rounded-sm px-3 py-1 text-white hover:text-orangered duration-300"
+                                href="#">
+                                <i class="fa-solid fa-cart-shopping  "></i>
+                            </a>
+                            <a class="px-3 py-1 bg-black hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-heart "></i>
+                            </a>
+                            <a class="bg-black rounded-sm px-3 py-1 hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-magnifying-glass "></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class=" absolute left-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Buy</a>
+                            <a class="absolute right-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Rent</a>
+                        </div>
+                        <div class="w-full h-4/6  flex justify-center items-center px-4 overflow-hidden">
+                            <img class="hover:scale-110 duration-300" src="./Assets/laptop/img2.jpeg" alt="">
+                        </div>
+                        <div class="w-full h-2/6 flex flex-col justify-center items-center">
+                            <h1 class="text-orangered font-bold text-xl">C2D Laptop</h1>
+                            <h2 class="text-black font-semibold mb-2 ">Intel core 2 Duo</h2>
+                            <p class="text-gray-500 font-bold text-sm flex justify-center items-center">Buy -/ Rs 8000 |
+                                Rent -/Rs 800</p>
+                        </div>
+                    </div>
+                    <div
+                        class=" product3 w-60 h-80 bg-white rounded-md hover:shadow-lg cursor-pointer hover:shadow-orangered hover:-translate-y-5 duration-300 relative overflow-hidden ">
+                        <div class="cartlist3 flex flex-col absolute -right-11 top-10 gap-y-5 duration-300 z-30">
+                            <a class="bg-black rounded-sm px-3 py-1 text-white hover:text-orangered duration-300"
+                                href="#">
+                                <i class="fa-solid fa-cart-shopping  "></i>
+                            </a>
+                            <a class="px-3 py-1 bg-black hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-heart "></i>
+                            </a>
+                            <a class="bg-black rounded-sm px-3 py-1 hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-magnifying-glass "></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class=" absolute left-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Buy</a>
+                            <a class="absolute right-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Rent</a>
+                        </div>
+                        <div class="w-full h-4/6  flex justify-center items-center px-4 overflow-hidden">
+                            <img class="hover:scale-110 duration-300" src="./Assets/laptop/img3.png" alt="">
+                        </div>
+                        <div class="w-full h-2/6 flex flex-col justify-center items-center">
+                            <h1 class="text-orangered font-bold text-xl">C2D Laptop</h1>
+                            <h2 class="text-black font-semibold mb-2 ">Intel core 2 Duo</h2>
+                            <p class="text-gray-500 font-bold text-sm flex justify-center items-center">Buy -/ Rs 8000 |
+                                Rent -/Rs 800</p>
+                        </div>
+                    </div>
+                    <div
+                        class=" product4 w-60 h-80 bg-white rounded-md hover:shadow-lg cursor-pointer hover:shadow-orangered hover:-translate-y-5 duration-300 relative overflow-hidden ">
+                        <div class="cartlist4 flex flex-col absolute -right-11 top-10 gap-y-5 duration-300 z-30">
+                            <a class="bg-black rounded-sm px-3 py-1 text-white hover:text-orangered duration-300"
+                                href="#">
+                                <i class="fa-solid fa-cart-shopping  "></i>
+                            </a>
+                            <a class="px-3 py-1 bg-black hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-heart "></i>
+                            </a>
+                            <a class="bg-black rounded-sm px-3 py-1 hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-magnifying-glass "></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class=" absolute left-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Buy</a>
+                            <a class="absolute right-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Rent</a>
+                        </div>
+                        <div class="w-full h-4/6  flex justify-center items-center px-4 overflow-hidden">
+                            <img class="hover:scale-110 duration-300" src="./Assets/laptop/img4.jpg" alt="">
+                        </div>
+                        <div class="w-full h-2/6 flex flex-col justify-center items-center">
+                            <h1 class="text-orangered font-bold text-xl">C2D Laptop</h1>
+                            <h2 class="text-black font-semibold mb-2 ">Intel core 2 Duo</h2>
+                            <p class="text-gray-500 font-bold text-sm flex justify-center items-center">Buy -/ Rs 8000 |
+                                Rent -/Rs 800</p>
+                        </div>
+                    </div>
+                    <div
+                        class=" product5 w-60 h-80 bg-white rounded-md hover:shadow-lg cursor-pointer hover:shadow-orangered hover:-translate-y-5 duration-300 relative overflow-hidden ">
+                        <div class="cartlist5 flex flex-col absolute -right-11 top-10 gap-y-5 duration-300 z-30">
+                            <a class="bg-black rounded-sm px-3 py-1 text-white hover:text-orangered duration-300"
+                                href="#">
+                                <i class="fa-solid fa-cart-shopping  "></i>
+                            </a>
+                            <a class="px-3 py-1 bg-black hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-heart "></i>
+                            </a>
+                            <a class="bg-black rounded-sm px-3 py-1 hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-magnifying-glass "></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class=" absolute left-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Buy</a>
+                            <a class="absolute right-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Rent</a>
+                        </div>
+                        <div class="w-full h-4/6  flex justify-center items-center px-4 overflow-hidden">
+                            <img class="hover:scale-110 duration-300" src="./Assets/laptop/img5.png" alt="">
+                        </div>
+                        <div class="w-full h-2/6 flex flex-col justify-center items-center">
+                            <h1 class="text-orangered font-bold text-xl">C2D Laptop</h1>
+                            <h2 class="text-black font-semibold mb-2 ">Intel core 2 Duo</h2>
+                            <p class="text-gray-500 font-bold text-sm flex justify-center items-center">Buy -/ Rs 8000 |
+                                Rent -/Rs 800</p>
+                        </div>
+                    </div>
+                    <div
+                        class=" product6 w-60 h-80 bg-white rounded-md hover:shadow-lg cursor-pointer hover:shadow-orangered hover:-translate-y-5 duration-300 relative overflow-hidden ">
+                        <div class="cartlist6 flex flex-col absolute -right-11 top-10 gap-y-5 duration-300 z-30">
+                            <a class="bg-black rounded-sm px-3 py-1 text-white hover:text-orangered duration-300"
+                                href="#">
+                                <i class="fa-solid fa-cart-shopping  "></i>
+                            </a>
+                            <a class="px-3 py-1 bg-black hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-heart "></i>
+                            </a>
+                            <a class="bg-black rounded-sm px-3 py-1 hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-magnifying-glass "></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class=" absolute left-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Buy</a>
+                            <a class="absolute right-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Rent</a>
+                        </div>
+                        <div class="w-full h-4/6  flex justify-center items-center px-4 overflow-hidden">
+                            <img class="hover:scale-110 duration-300" src="./Assets/laptop/img6.jpeg" alt="">
+                        </div>
+                        <div class="w-full h-2/6 flex flex-col justify-center items-center">
+                            <h1 class="text-orangered font-bold text-xl">C2D Laptop</h1>
+                            <h2 class="text-black font-semibold mb-2 ">Intel core 2 Duo</h2>
+                            <p class="text-gray-500 font-bold text-sm flex justify-center items-center">Buy -/ Rs 8000 |
+                                Rent -/Rs 800</p>
+                        </div>
+                    </div>
+                    <div
+                        class=" product7 w-60 h-80 bg-white rounded-md hover:shadow-lg cursor-pointer hover:shadow-orangered hover:-translate-y-5 duration-300 relative overflow-hidden ">
+                        <div class="cartlist7 flex flex-col absolute -right-11 top-10 gap-y-5 duration-300 z-30">
+                            <a class="bg-black rounded-sm px-3 py-1 text-white hover:text-orangered duration-300"
+                                href="#">
+                                <i class="fa-solid fa-cart-shopping  "></i>
+                            </a>
+                            <a class="px-3 py-1 bg-black hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-heart "></i>
+                            </a>
+                            <a class="bg-black rounded-sm px-3 py-1 hover:bg-orangered duration-300" href="#">
+                                <i class="fa-solid fa-magnifying-glass "></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class=" absolute left-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Buy</a>
+                            <a class="absolute right-3 z-30 bottom-24 bg-orangered px-4 py-1 rounded-md hover:shadow-lg hover:shadow-orangered duration-200"
+                                href="#">Rent</a>
+                        </div>
+                        <div class="w-full h-4/6  flex justify-center items-center px-4 overflow-hidden">
+                            <img class="hover:scale-110 duration-300" src="./Assets/laptop/img7.jpg" alt="">
+                        </div>
+                        <div class="w-full h-2/6 flex flex-col justify-center items-center">
+                            <h1 class="text-orangered font-bold text-xl">C2D Laptop</h1>
+                            <h2 class="text-black font-semibold mb-2 ">Intel core 2 Duo</h2>
+                            <p class="text-gray-500 font-bold text-sm flex justify-center items-center">Buy -/ Rs 8000 |
+                                Rent -/Rs 800</p>
+                        </div>
+                    </div>
+                    <!-- <div class="w-60 h-80 bg-white">8</div>
+                    <div class="w-60 h-80 bg-white">9</div>
+                    <div class="w-60 h-80 bg-white">10</div>
+                    <div class="w-60 h-80 bg-white">11</div>
+                    <div class="w-60 h-80 bg-white">12</div> -->
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- product section ends here -->
+
+        <!-- services we provide section starts from here -->
+
+        <div class="w-full h-50  relative flex justify-center px-5 lg:px-0 mt-53">
+            <h1 data-aos="fade-up" data-aos-duration="2000"
+                class="text-white text-6xl font-semibold absolute -top-36 md:-top-28 text-center">Services We <span
+                    class="text-orangered">Provide</span></h1>
+            <h2
+                class="text-white absolute -top-45 md:-top-40 font-bold text-lg opacity-70 bg-gradient-to-l from-lightblack from 40% to-black rounded-full px-3 py-1 shadow-md shadow-black">
+                Our Services</h2>
+            <div class="flex w-full h-full p-5 gap-x-10">
+                <div
+                    class="w-3/12 h-full text-white flex items-center justify-center bg-black rounded-md shadow-lg shadow-black hover:-translate-y-5 hover:scale-110 hover:shadow-orangered duration-300">
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-15 mb-3" src="./Assets/services/fast-delivery.png" alt="">
+                        <h1 class="font-bold">Fast & Free Delivery over $200</h1>
+                        <h2 class="text-sm">One Day Delivery </h2>
+                    </div>
+                </div>
+                <div
+                    class="w-3/12 h-full text-white flex items-center justify-center bg-black rounded-md shadow-lg shadow-black hover:-translate-y-5 hover:scale-110 hover:shadow-orangered duration-300">
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-15 mb-3" src="./Assets/services/real-estate.png" alt="">
+                        <h1 class="font-bold">Renting Service Available</h1>
+                        <h2 class="text-sm">Flexible Rental Period </h2>
+                    </div>
+                </div>
+                <div
+                    class="w-3/12 h-full text-white flex items-center justify-center bg-black rounded-md shadow-lg shadow-black hover:-translate-y-5 hover:scale-110 hover:shadow-orangered duration-300">
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-15 mb-3" src="./Assets/services//support (1).png" alt="">
+                        <h1 class="font-bold">Expert Customer Service</h1>
+                        <h2 class="text-sm">8:00 - 20:00, 7 days/week </h2>
+                    </div>
+                </div>
+                <div
+                    class="w-3/12 h-full text-white flex items-center justify-center bg-black rounded-md shadow-lg shadow-black hover:-translate-y-5 hover:scale-110 hover:shadow-orangered duration-300">
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="w-15 mb-3" src="./Assets/services/maintenance.png" alt="">
+                        <h1 class="font-bold">Best Maintenance Service</h1>
+                        <h2 class="text-sm">Up to date Technology </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- services we provide section ends here -->
+
+
+        <!-- feedback section starts from here -->
+        <div class="mb-30 mt-53  w-full flex  rounded-md  justify-center relative px-5 lg:px-0">
+            <h1 data-aos="fade-up" data-aos-duration="2000"
+                class="text-white text-6xl font-semibold absolute -top-36 md:-top-28 text-center">People's <span
+                    class="text-orangered">Feedbacks</span></h1>
+            <h2
+                class="text-white absolute -top-45 md:-top-40 font-bold text-lg opacity-70 bg-gradient-to-l from-lightblack from 40% to-black rounded-full px-3 py-1 shadow-md shadow-black">
+                Our Testimonials</h2>
+            <div class="w-full h-auto flex flex-col md:flex-row  lg:flex-col gap-x-10 gap-y-30">
+                <div
+                    class="w-full lg:h-5/10 rounded-t-md flex flex-col lg:flex-row justify-center items-center gap-y-20 md:gap-x-10">
+                    <div
+                        class="w-full lg:w-4/12 h-full flex pt-15 px-7 flex-col  justify-center items-center bg-gradient-to-tl from-lightblack from-25% to-black shadow-lg shadow-black rounded-md relative">
+                        <img src="./Assets/feedback icon/quote.png" alt="">
+                        <p class="text-white text-center my-8 opacity-50">I was amazed with their quick and responsive
+                            service offered to me on system repairs and maintenance. I have a small business of IT and
+                            designing and have assembled systems from KR infotech. Truly satisfied from their service.
+                            Though the price is affordable but you can still negotiate it.</p>
+                        <span
+                            class="text-orangered flex justify-center items-center rounded-full px-5 gap-x-2 py-3 bg-gradient-to-l from-lightblack from-30% to-black shadow-md shadow-black mb-23">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <div class="flex flex-col justify-center items-center gap-y-1 absolute -bottom-16">
+                            <div class="flex justify-center items-center bg-black w-20 h-20 rounded-full text-center">
+                                <img class="" src="./Assets/feedback icon/user.png" alt="">
+                            </div>
+                            <p class="text-white font-bold">Radhe Sharma</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full lg:w-4/12 h-full flex pt-15 px-7 flex-col  justify-center items-center bg-gradient-to-tl from-lightblack from-25% to-black shadow-lg shadow-black rounded-md relative">
+                        <img src="./Assets/feedback icon/quote.png" alt="">
+                        <p class="text-white text-center my-16.5 opacity-50">Best Product Provider. They provide the
+                            Computer on hire with one extra Computer as a backup without any rent. This is very amazing.
+                        </p>
+                        <span
+                            class="text-orangered flex justify-center items-center rounded-full px-5 gap-x-2 py-3 bg-gradient-to-l from-lightblack from-30% to-black shadow-md shadow-black mb-23">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <div class="flex flex-col justify-center items-center gap-y-1 absolute -bottom-16">
+                            <div class="flex justify-center items-center bg-black w-20 h-20 rounded-full text-center">
+                                <img class="" src="./Assets/feedback icon/user.png" alt="">
+                            </div>
+                            <p class="text-white font-bold">Hitesh</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full lg:w-4/12 h-full flex pt-15 px-7 flex-col   justify-center items-center bg-gradient-to-tl from-lightblack from-25% to-black shadow-lg shadow-black rounded-md relative">
+                        <img src="./Assets/feedback icon/quote.png" alt="">
+                        <p class="text-white text-center my-20 opacity-50">This is the best service provider I have ever
+                            used in my past 7 years.
+                            Thats why I am a loyal customer of them.
+                            Keep it up guys.
+                        </p>
+                        <span
+                            class="text-orangered flex justify-center items-center rounded-full px-5 gap-x-2 py-3 bg-gradient-to-l from-lightblack from-30% to-black shadow-md shadow-black mb-23">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <div class="flex flex-col justify-center items-center gap-y-1 absolute -bottom-16">
+                            <div class="flex justify-center items-center bg-black w-20 h-20 rounded-full text-center">
+                                <img class="" src="./Assets/feedback icon/user.png" alt="">
+                            </div>
+                            <p class="text-white font-bold">Mohit</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="w-full lg:h-5/10 mt-20 sm:mt-0  rounded-b-md flex flex-col justify-center items-center lg:flex-row gap-y-20 md:gap-x-10">
+                    <div
+                        class="w-full lg:w-4/12 h-full flex pt-15 px-7 flex-col  justify-center items-center bg-gradient-to-tl from-lightblack from-25% to-black shadow-lg shadow-black rounded-md relative">
+                        <img src="./Assets/feedback icon/quote.png" alt="">
+                        <p class="text-white text-center my-20 opacity-50">They are the only 24X7 services provide in
+                            Delhi NCR.
+                            I am really secured about ther service they provide to their customers
+                        </p>
+                        <span
+                            class="text-orangered flex justify-center items-center rounded-full px-5 gap-x-2 py-3 bg-gradient-to-l from-lightblack from-30% to-black shadow-md shadow-black mb-23">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <div class="flex flex-col justify-center items-center gap-y-1 absolute -bottom-16">
+                            <div class="flex justify-center items-center bg-black w-20 h-20 rounded-full text-center">
+                                <img class="" src="./Assets/feedback icon/user.png" alt="">
+                            </div>
+                            <p class="text-white font-bold">Bhavesh</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full lg:w-4/12 h-full flex pt-15 px-7 flex-col  justify-center items-center bg-gradient-to-tl from-lightblack from-25% to-black shadow-lg shadow-black rounded-md relative">
+                        <img src="./Assets/feedback icon/quote.png" alt="">
+                        <p class="text-white text-center my-20 opacity-50">We have rented 70 Laptops from KR Infotech
+                            which was unrespectable before time delivered and with brand new condition.</p>
+                        <span
+                            class="text-orangered flex justify-center items-center rounded-full px-5 gap-x-2 py-3 bg-gradient-to-l from-lightblack from-30% to-black shadow-md shadow-black mb-23">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <div class="flex flex-col justify-center items-center gap-y-1 absolute -bottom-16">
+                            <div class="flex justify-center items-center bg-black w-20 h-20 rounded-full text-center">
+                                <img class="" src="./Assets/feedback icon/user.png" alt="">
+                            </div>
+                            <p class="text-white font-bold">Abhishek</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full lg:w-4/12 h-full flex pt-15 px-7 flex-col  justify-center items-center bg-gradient-to-tl from-lightblack from-25% to-black shadow-lg shadow-black rounded-md relative">
+                        <img src="./Assets/feedback icon/quote.png" alt="">
+                        <p class="text-white text-center my-20 opacity-50">I have installed CCTV from them they have
+                            chared very less then market prices and also provide the after sale service to me.</p>
+                        <span
+                            class="text-orangered flex justify-center items-center rounded-full px-5 gap-x-2 py-3 bg-gradient-to-l from-lightblack from-30% to-black shadow-md shadow-black mb-23">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <div class="flex flex-col justify-center items-center gap-y-1 absolute -bottom-16">
+                            <div class="flex justify-center items-center bg-black w-20 h-20 rounded-full text-center">
+                                <img class="" src="./Assets/feedback icon/user.png" alt="">
+                            </div>
+                            <p class="text-white font-bold">Rohit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- feedback section ends here -->
+
+        <!-- Top brand section starts from here -->
+        <div class="w-full h-50 relative flex justify-center mt-72 mb-20">
+            <h1 data-aos="fade-up" data-aos-duration="2000"
+                class="text-white text-6xl font-semibold absolute -top-36 md:-top-28 text-center">Top Brands <span
+                    class="text-orangered">With us</span></h1>
+            <h2
+                class="text-white absolute -top-45 md:-top-40 font-bold text-lg opacity-70 bg-gradient-to-l from-lightblack from 40% to-black rounded-full px-3 py-1 shadow-md shadow-black">
+                Our Brands</h2>
+            <div class="w-full h-50  mb-20 flex relative overflow-hidden ">
+                <div class="brandslider absolute flex gap-x-8 animate-loop">
+                    <div class="w-60 h-50 flex justify-center items-center ">
+                        <img src="./Assets/brand logos/1.png" alt="">
+                    </div>
+                    <div class="w-60 h-50 flex justify-center items-center ">
+                        <img src="./Assets/brand logos/2.jpg" alt="">
+                    </div>
+                    <div class="w-60 h-50 flex justify-center items-center">
+                        <img src="./Assets/brand logos/3.png" alt="">
+                    </div>
+                    <div class="w-60 h-50 flex justify-center items-center">
+                        <img src="./Assets/brand logos/4.jpg" alt="">
+                    </div>
+                    <div class="w-60 h-50 flex justify-center items-center">
+                        <img src="./Assets/brand logos/5.png" alt="">
+                    </div>
+                    <div class="w-60 h-50 flex justify-center items-center">
+                        <img src="./Assets/brand logos/6.jpg" alt="">
+                    </div>
+                    <div class="w-60 h-50 flex justify-center items-center">
+                        <img src="./Assets/brand logos/7.jpg" alt="">
+                    </div>
+                    <div class="w-60 h-50 flex justify-center items-center">
+                        <img src="./Assets/brand logos//8.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- TOp brands starting from here -->
+
+
+    </main>
+    <footer class=" w-full  ">
+        <div class="w-full  xl:h-104 px-5 xl:px-26 2xl:px-36  bg-inherit flex flex-col xl:flex-row">
+            <!-- logo and intro section -->
+            <div class="w-full xl:w-3/12 h-full bg-inherit flex justify-start items-center">
+                <div class="flex flex-col justity-center items-center xl:items-start gap-y-0 xl:pr-17 mt-15">
+                    <img data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in"
+                        class="w-30 bg-white p-4 rounded-sm shadow-lg shadow-black hover:scale-125 duration-200"
+                        src="./Assets/logo/KRI-Logo.png" alt="logo">
+                    <p class="text-white opacity-50 text-center lg:text-left text-wrap my-7 ">We, K R Infotech, situated
+                        in Delhi, provide all
+                        types of integrated and branded computers on hire. Computers on rent help minimize your
+                        maintenance costs and headaches associated with it. </p>
+                    <a class=" cta1 bg-orangered text-white px-4 py-3  lg:px-9 lg:py-4 rounded-lg font-bold mb-10 relative animate-bounce overflow-hidden text-nowrap"
+                        href="#">Hire Something !!
+                        <span class="mirage w-full h-full bg-black absolute -left-full -top-full duration-1000 "></span>
+                    </a>
+                </div>
+            </div>
+            <div class="w-full xl:w-9/12 h-full hidden   lg:flex">
+                <div class="w-3/12 h-full  hidden xl:flex flex-col  border-gray-800">
+                    <!-- soddcial media section starts from here -->
+                    <div data-aos="flip-up" data-aos-duration="1500" data-aos-easing="ease-in-out"
+                        class="w-full h-2.5/10  flex justify-center items-center text-white">
+                        <a class="facebook w-full h-full  flex justify-center items-center relative overflow-hidden"
+                            href="#">
+                            <p class="z-20">
+                                <i
+                                    class="fa-brands fa-facebook-f px-5 py-4 rounded-full bg-icon shadow-md hover:text-blue-600 duration-300 shadow-blue-700 text-2xl"></i>
+                            </p>
+                            <section
+                                class="slider1 absolute w-200% h-full  -left-200% flex transition-all duration-300 ease-in-out">
+                                <span
+                                    class="fslider1 w-full h-full bg-footer l flex justify-center items-center "></span>
+                                <span class="fslider2 w-full h-full bg-black flex justify-center items-center">
+
+                                </span>
+                            </section>
+                        </a>
+                    </div>
+                    <div data-aos="flip-up" data-aos-duration="2000" data-aos-easing="ease-in-out"
+                        class="w-full h-2.5/10  flex justify-center items-center text-white">
+                        <a class="twitter w-full h-full  flex justify-center items-center relative overflow-hidden"
+                            href="#">
+                            <p class="z-20">
+                                <i
+                                    class="fa-brands fa-x-twitter p-4 rounded-full bg-icon shadow-md hover:text-blue-400 duration-300 shadow-white text-2xl"></i>
+                            </p>
+                            <section
+                                class="slider2 absolute w-200% h-full  -left-200% flex transition-all duration-300 ease-in-out">
+                                <span
+                                    class="fslider1 w-full h-full bg-footer l flex justify-center items-center "></span>
+                                <span class="fslider2 w-full h-full bg-black flex justify-center items-center">
+
+                                </span>
+                            </section>
+                        </a>
+                    </div>
+                    <div data-aos="flip-up" data-aos-duration="2500" data-aos-easing="ease-in-out"
+                        class="w-full h-2.5/10  flex justify-center items-center text-white">
+                        <a class="linkedin w-full h-full  flex justify-center items-center relative overflow-hidden"
+                            href="#">
+                            <p class="z-20">
+                                <i
+                                    class="fa-brands fa-linkedin-in p-4 rounded-full bg-icon shadow-md hover:text-sky-600 duration-300 shadow-sky-500 text-2xl"></i>
+                            </p>
+                            <section
+                                class="slider3 absolute w-200% h-full  -left-200% flex transition-all duration-300 ease-in-out">
+                                <span
+                                    class="fslider1 w-full h-full bg-footer l flex justify-center items-center "></span>
+                                <span class="fslider2 w-full h-full bg-black flex justify-center items-center"></span>
+                            </section>
+                        </a>
+                    </div>
+                    <div data-aos="flip-up" data-aos-duration="3000" data-aos-easing="ease-in-out"
+                        class="w-full h-2.5/10  flex justify-center items-center text-white">
+                        <a class="instagram w-full h-full  flex justify-center items-center relative overflow-hidden"
+                            href="#">
+                            <p class="z-20">
+                                <i
+                                    class="fa-brands fa-instagram p-3.5 lg:p-4 rounded-full bg-icon shadow-md hover:text-pink-600 duration-300 shadow-pink-500 text-2xl"></i>
+                            </p>
+                            <section
+                                class="slider4 absolute w-200% h-full  -left-200% flex transition-all duration-300 ease-in-out">
+                                <span
+                                    class="fslider1 w-full h-full bg-footer l flex justify-center items-center "></span>
+                                <span class="fslider2 w-full h-full bg-black flex justify-center items-center"></span>
+                            </section>
+                        </a>
+                    </div>
+                    <!-- social media section ends here -->
+                </div>
+                <div
+                    class="w-full xl:w-7.5/10 h-full text-white  flex xl:pl-10 justify-start items-center 2xl:gap-x-10 mt-15 mb-8 xl:my-0">
+                    <!-- contact us section starts from here -->
+                    <div
+                        class="flex flex-col justify-center w-full  xl:w-6/12 phone:ml-0 sm:ml-50  xl:ml-0   relative gap-y-5">
+                        <h1 class="absolute -top-15 text-2xl font-bold ">Contact Us</h1>
+                        <div class="flex justify-start items-center  gap-x-6">
+                            <i
+                                class="fa-solid fa-location-crosshairs p-3.5 lg:p-4 text-lg shadow-md shadow-black rounded-full text-orangered bg-icon"></i>
+                            <section class="flex flex-col gap-y-1">
+                                <h1>Our Address</h1>
+                                <p class="text-sm text-gray-400 ">J244 Basement Saket J Block
+                                    New Delhi 110017</p>
+                            </section>
+                        </div>
+                        <div class="w-full flex justify-start items-center gap-x-6">
+                            <i
+                                class="fa-solid fa-at p-4 text-lg rounded-full text-orangered shadow-md shadow-black bg-icon relative">
+                                <span
+                                    class="w-1.5 h-1.5 rounded-full animate-ping   absolute top-1 right-1 bg-green-400 flex justify-center items-center">
+                                    <span class="w-2 h-2 animate-ping absolute rounded-full bg-green-500"></span>
+                                </span>
+                            </i>
+                            <section>
+                                <h1>Our Email</h1>
+                                <p class="text-sm text-gray-400"><a class="hover:text-orangered duration-300"
+                                        href="#">info@krinfotech.co</a></p>
+                            </section>
+                        </div>
+                        <div class="flex justify-start items-center gap-x-6 mt-2">
+                            <i
+                                class="fa-solid fa-phone p-3.5 lg:p-4 text-lg rounded-full text-orangered shadow-md shadow-black bg-icon relative">
+                                <span
+                                    class="w-1.5 h-1.5 rounded-full animate-ping  absolute top-1 right-1 bg-green-400 flex justify-center items-center">
+                                    <span class="w-2 h-2 animate-ping absolute rounded-full bg-green-500"></span>
+                                </span>
+                            </i>
+                            <section>
+                                <h1>Our Phone</h1>
+                                <p class="text-sm text-gray-400"><a class="hover:text-orangered duration-300"
+                                        href="#">+91-9953867737</a></p>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- contact us section ends here -->
+
+                    <!-- social media posts section starts from here -->
+                    <div data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease"
+                        class="w-6/12 h-40 2xl:h-53 relative lg:flex flex-col gap-y-3 hidden ">
+                        <h1 class="absolute -top-15 text-2xl font-bold">Social Media Posts</h1>
+                        <div class="w-full h-5/10  flex gap-x-3">
+                            <div
+                                class="w-4/12 h-full flex justify-center items-center bg-icon rounded-md shadow-lg shadow-black">
+                                <a class="hover:text-orangered duration-300 w-full h-full flex justify-center items-center"
+                                    href="#">Post 1</a>
+                            </div>
+                            <div
+                                class="w-4/12 h-full flex justify-center items-center bg-icon rounded-md shadow-lg shadow-black">
+                                <a class="hover:text-orangered duration-300 w-full h-full flex justify-center items-center"
+                                    href="#">Post 2</a>
+                            </div>
+                            <div
+                                class="w-4/12 h-full flex justify-center items-center bg-icon rounded-md shadow-lg shadow-black">
+                                <a class="hover:text-orangered duration-300 w-full h-full flex justify-center items-center"
+                                    href="#">Post 3</a>
+                            </div>
+                        </div>
+                        <div class="w-full h-5/10 flex gap-x-3">
+                            <div
+                                class="w-4/12 h-full flex justify-center items-center bg-icon rounded-md shadow-lg shadow-black">
+                                <a class="hover:text-orangered duration-300 w-full h-full flex justify-center items-center"
+                                    href="#">Post 4</a>
+                            </div>
+                            <div
+                                class="w-4/12 h-full flex justify-center items-center bg-icon rounded-md shadow-lg shadow-black">
+                                <a class="hover:text-orangered duration-300 w-full h-full flex justify-center items-center"
+                                    href="#">Post 5</a>
+                            </div>
+                            <div
+                                class="w-4/12 h-full flex justify-center items-center bg-icon rounded-md shadow-lg shadow-black">
+                                <a class="hover:text-orangered duration-300 w-full h-full flex justify-center items-center"
+                                    href="#">Post 6</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- social media posts section ends here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- copyright and key section from here -->
+        <div
+            class="w-full justify-center  flex lg:justify-between items-center border-t px-3 xl:px-26 2xl:px-36 border-gray-800">
+            <div class="flex w-full py-5 lg:py-15 justify-between text-white ">
+                <div
+                    class="flex flex-col gap-y-5 lg:gapy-0 justify-center lg:flex-row w-full lg:justify-between shadow-md shadow-black  rounded-md py-5 lg:py-2 items-center px-3 bg-gradient-to-tl from-lightblack via-10% to-90% to-black ">
+                    <p class=" shadow-md text-center">© 2014 Krinfotech. All rights reserved | Design by DZign Pixel</p>
+                    <div class="flex flex-col gap-y-4 lg:flex-row gap-x-7 text-sm lg:text-base justify-center">
+                        <div class=" homekey w-auto relative flex flex-col jistify-center items-center ">
+                            <a class=" hover:text-orangered duration-300" href="./index.html">Home</a>
+                            <span class="underline1  h-0.25 bg-orange-500 transition-all duration-300"></span>
+                        </div>
+                        <div class="aboutkey w-auto relative flex flex-col jistify-center items-center text-nowrap">
+                            <a class="hover:text-orangered duration-300" href="./aboutus.html">About Us</a>
+                            <span class="underline3  h-0.25 bg-orange-500 transition-all duration-300"></span>
+                        </div>
+                        <div class="aboutkey w-auto relative flex flex-col jistify-center items-center">
+                            <a class="hover:text-orangered duration-300" href="./aboutus.html text-nowrapr">About Us</a>
+                            <span class="underline3  h-0.25 bg-orange-500 transition-all duration-300"></span>
+                        </div>
+                        <div class="contactkey w-auto relative flex flex-col jistify-center items-center text-nowrap">
+                            <a class="hover:text-orangered duration-300" href="./contactus.html">Contact Us</a>
+                            <span class="underline4  h-0.25 bg-orange-500 transition-all duration-300"></span>
+                        </div>
+                        <div class="faqkey w-auto relative flex flex-col jistify-center items-center text-nowrap">
+                            <a class="hover:text-orangered duration-300" href="./faq.html">FAQs</a>
+                            <span class="underline5  h-0.25 bg-orange-500 transition-all duration-300"></span>
+                        </div>
+                        <div class="ewastekey w-auto relative flex flex-col jistify-center items-center">
+                            <a class="hover:text-orangered duration-300" href="./ewaste.html">E-waste</a>
+                            <span class="underline6  h-0.25 bg-orange-500 transition-all duration-300"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./src/jquery-3.7.1.min.js"></script>
+    <script src="./src/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
