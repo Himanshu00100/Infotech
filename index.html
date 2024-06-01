@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/external.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -60,44 +61,46 @@
             </div>
         </div>
     </header>
-    <main class="w-full mt-20 justify-center xl:px-26 2xl:px-36">
+    <main class="w-full mt-20 justify-center xl:px-26 2xl:px-0">
         <!-- Hero section starts from here -->
-        <div class="w-full h-110   flex  justify-between items-center relative  overflow-hidden shadow-md shadow-black">
-            <i
-                class="fa-solid fa-chevron-left leftarrow  hover:opacity-100 opacity-45  duration-200 absolute left-5 z-20 text-white font-bold text-5xl"></i>
-            <div class="frame w-hero h-110 relative flex ">
-                <div class="flex absolute gap-x-2 bottom-10 left-2/4">
-                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20 rounded-full"></span>
-                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20 rounded-full"></span>
-                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20 rounded-full"></span>
-                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20  rounded-full"></span>
-                    <span class="navigation w-5 h-1 bg-white opacity-50 z-20 rounded-full"></span>
+        <div class="w-full h-[320px] 2xl:h-[700px]    shadow-md shadow-black">
+            <!-- Swiper -->
+            <div class="swiper mySwiper h-full ">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide">
+                        <div class="w-full h-full flex justify-center items-center bg-red-500 relative overflow-hidden ">
+                            <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-[0.2]"></span>
+                            <img class="scale-[1.89] 2xl:scale-[1]" src="./Assets/H1 images/h1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            class="w-full h-full flex justify-center items-center bg-blue-500 relative overflow-hidden">
+                            <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-[0.2]"></span>
+                            <img class="scale-[1.91] 2xl:scale-[1]" src="./Assets/H1 images/h2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            class="w-full h-full flex justify-center items-center bg-green-500 relative overflow-hidden">
+                            <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-[0.2]"></span>
+                            <img class="scale-[1.89] 2xl:scale-[1]" src="./Assets/H1 images/h3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            class="w-full h-full flex justify-center items-center bg-yellow-500 relative overflow-hidden">
+                            <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-[0.2]"></span>
+                            <img class="scale-[1.91] 2xl:scale-[1]" class="-" src="./Assets/H1 images/h2.jpg" alt="">
+                        </div>
+                    </div>
+
                 </div>
-                <div class=" absolute slider duration-1000 flex">
-                    <div class="w-hero h-110 bg-orange-500 image relative flex justify-center items-center">
-                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
-                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
-                    </div>
-                    <div class="w-hero h-110 bg-green-500 image relative">
-                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
-                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
-                    </div>
-                    <div class="w-hero h-110 bg-blue-500 image relative">
-                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
-                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
-                    </div>
-                    <div class="w-hero h-110 bg-yellow-500 image relative">
-                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
-                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
-                    </div>
-                    <div class="image w-hero h-110 bg-purple-500 relative">
-                        <span class="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-30"></span>
-                        <img class="" src="./Assets/H1 images/h1.jpg" alt="">
-                    </div>
-                </div>
+                
+                <div class="swiper-button-next "></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
-            <i
-                class="fa-solid fa-chevron-left rightarrow  hover:opacity-100 opacity-45  duration-200  absolute right-5 z-20 rotate-180 text-white font-bold text-5xl"></i>
         </div>
         <!-- hero sectionm ends here -->
 
@@ -426,7 +429,7 @@
 
         <!-- services we provide section starts from here -->
 
-        <div class="w-full h-50  relative flex justify-center px-5 lg:px-0 mt-53">
+        <div class="w-full h-50  relative hidden justify-center px-5 lg:px-0 mt-53">
             <h1 data-aos="fade-up" data-aos-duration="2000"
                 class="text-white text-6xl font-semibold absolute -top-36 md:-top-28 text-center">Services We <span
                     class="text-orangered">Provide</span></h1>
@@ -658,10 +661,10 @@
         </div>
 
 
-        <!-- TOp brands starting from here -->
+        <!-- Top brands starting from here -->
 
 
-    </main>
+    <!-- </main> footer section starts from here -->
     <footer class=" w-full  ">
         <div class="w-full  xl:h-104 px-5 xl:px-26 2xl:px-36  bg-inherit flex flex-col xl:flex-row">
             <!-- logo and intro section -->
@@ -882,12 +885,29 @@
     </footer>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./src/jquery-3.7.1.min.js"></script>
     <script src="./src/index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
+        var swiper = new Swiper(".mySwiper", {
+            autoplay:{
+                delay:"3000"
+            },
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: false,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
     </script>
 </body>
 
