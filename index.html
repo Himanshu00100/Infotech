@@ -427,7 +427,7 @@
                 <div class="swiper-pagination2  flex justify-center absolute bottom-[-50px]"></div>
             </div>
 
-            
+
         </div>
 
 
@@ -1112,13 +1112,17 @@
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 },
+                300: {
+                    slidesPerView: 1.25,
+                    spaceBetween: 15
+                },
             });
 
             // slider 2 from here
 
             var swiper = new Swiper(".swiper-container2", {
-                autoplay:{
-                    delay:"4000"
+                autoplay: {
+                    delay: "4000"
                 },
                 slidesPerView: 5,
                 spaceBetween: 30,
@@ -1127,6 +1131,17 @@
                     el: ".swiper-pagination2",
                     clickable: true,
                 },
+                breakpoints: {
+                    300: {
+                        slidesPerView: 1.25,
+                        spaceBetween: 15,
+                    },
+                    1536:{
+                        slidesPerView: 5,
+                        spaceBetween: 15,
+                    }
+                    
+                }
             });
 
 
