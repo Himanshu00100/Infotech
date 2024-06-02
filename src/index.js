@@ -103,8 +103,8 @@ sliderfunction(".instagram", ".slider4")
 let element1 = document.querySelector(".rightarrow");
 let counter = 1;
 let images = document.querySelectorAll(".image");
-let slider=document.querySelector(".slider")
-let navigation=document.querySelectorAll(".navigation");
+let slider = document.querySelector(".slider")
+let navigation = document.querySelectorAll(".navigation");
 console.log(navigation.length)
 const anonymous = () => {
   element1.addEventListener("click", () => {
@@ -125,7 +125,7 @@ const anonymous = () => {
 }
 
 anonymous()
-setInterval(()=>{
+setInterval(() => {
   if (counter < (images.length)) {
     slider.style.transform = `translateX(-${counter * 1280}px)`;
     console.log(counter)
@@ -137,27 +137,30 @@ setInterval(()=>{
     console.log("counter greater than 5")
     counter = 1;
   }
-},3000)
+}, 3000)
 
 
 // product section starts from here
 
-const productslider=(element1,element2)=>{
-  $(element1).mouseenter(()=>{
+const productslider = (element1, element2) => {
+  $(element1).mouseenter(() => {
     $(element2).css({
-      "right":"12px"
+      "right": "12px"
     })
   })
-  $(element1).mouseleave(()=>{
+  $(element1).mouseleave(() => {
     $(element2).css({
-      "right":"-44px"
+      "right": "-44px"
     })
   })
 }
-productslider(".product1",".cartlist1");
-productslider(".product2",".cartlist2");
-productslider(".product3",".cartlist3");
-productslider(".product4",".cartlist4");
-productslider(".product5",".cartlist5");
-productslider(".product6",".cartlist6");
-productslider(".product7",".cartlist7");
+productslider(".product1", ".cartlist1");
+productslider(".product2", ".cartlist2");
+productslider(".product3", ".cartlist3");
+productslider(".product4", ".cartlist4");
+productslider(".product5", ".cartlist5");
+productslider(".product6", ".cartlist6");
+productslider(".product7", ".cartlist7");
+
+
+
